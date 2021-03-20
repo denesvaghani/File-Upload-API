@@ -1,0 +1,35 @@
+# Port Number    
+server: 
+    port: 7987
+    
+# Logging Level
+logging:
+    level:
+        root: error
+
+spring:
+# Application Name
+    application:
+        name: file-upload       
+# Data source      
+    datasource:
+        driverClassName: com.mysql.cj.jdbc.Driver
+        url: jdbc:mysql://${database.domain}/files?createDatabaseIfNotExist=true
+        username: gituser
+        password: 
+# JPA        
+    jpa: 
+        hibernate.ddl-auto: create-drop        
+        show-sql: false
+        
+# Actuator
+management:
+   endpoint:
+        health:
+           enabled: true 
+  
+# Database Domain   
+database:
+     domain: localhost:3306
+
+     
