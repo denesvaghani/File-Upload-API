@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Compiled class file
 *.class
 
@@ -23,3 +24,6 @@
 hs_err_pid*
 
 .sonarlint
+=======
+/.metadata/
+>>>>>>> 6a5e9b9f9454dbb089ee7a559caa95033d37438a
